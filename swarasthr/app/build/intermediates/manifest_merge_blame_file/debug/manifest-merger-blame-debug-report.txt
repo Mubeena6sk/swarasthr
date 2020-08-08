@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.polyu.screamalert"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:7:5-68
+11-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:8:5-71
+12-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:8:22-68
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:10:5-80
+14-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:11:5-69
+15-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:11:22-66
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:12:5-75
+16-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:12:22-72
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:13:5-66
+17-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:13:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:14:5-79
+18-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:14:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:15:5-67
+19-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:15:22-64
+20    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+20-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:16:5-74
+20-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:16:22-72
+21
+22    <application
+22-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:18:5-52:19
+23        android:allowBackup="true"
+23-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:19:9-35
+24        android:debuggable="true"
+25        android:icon="@drawable/ic_launcher"
+25-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:20:9-45
+26        android:label="@string/app_name"
+26-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:21:9-41
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:22:9-40
+28        <activity
+28-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:23:9-33:20
+29            android:name="edu.polyu.screamalert.SoundProcessingActivity"
+29-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:24:13-73
+30            android:label="@string/app_name"
+30-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:25:13-45
+31            android:screenOrientation="portrait"
+31-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:27:13-49
+32            android:theme="@style/Theme.NoTitle" >
+32-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:26:13-49
+33            <intent-filter>
+33-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:28:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:29:17-69
+34-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:29:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:31:17-77
+36-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:31:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:34:9-39:20
+40            android:name="edu.polyu.screamalert.SoundProcessingSetting"
+40-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:35:13-72
+41            android:label="@string/app_name"
+41-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:37:13-45
+42            android:launchMode="singleTask"
+42-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:36:13-44
+43            android:screenOrientation="portrait" >
+43-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:38:13-49
+44        </activity>
+45
+46        <service
+46-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:40:9-43:47
+47            android:name="edu.polyu.screamalert.SoundProcessingService"
+47-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:41:13-50
+48            android:icon="@drawable/ic_launcher"
+48-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:42:13-49
+49            android:label="@string/app_name" />
+49-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:43:13-45
+50
+51        <receiver android:name="edu.polyu.screamalert.SoundProcessingStartupReceiver" >
+51-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:44:9-49:20
+51-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:45:13-58
+52            <intent-filter>
+52-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:46:13-48:29
+53                <action android:name="android.intent.action.BOOT_COMPLETED" />
+53-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:47:17-78
+53-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:47:25-76
+54            </intent-filter>
+55        </receiver>
+56        <receiver android:name="edu.polyu.screamalert.AlarmReceiver" />
+56-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:50:9-51:43
+56-->C:\Users\Sk Mubeen\Desktop\SDF\app\src\main\AndroidManifest.xml:51:13-41
+57
+58        <meta-data
+58-->[com.android.support:support-v4:26.0.0] C:\Users\Sk Mubeen\.gradle\caches\transforms-2\files-2.1\af65d76596cf995049612f2c544af492\support-v4-26.0.0\AndroidManifest.xml:26:9-28:38
+59            android:name="android.support.VERSION"
+59-->[com.android.support:support-v4:26.0.0] C:\Users\Sk Mubeen\.gradle\caches\transforms-2\files-2.1\af65d76596cf995049612f2c544af492\support-v4-26.0.0\AndroidManifest.xml:27:13-51
+60            android:value="26.0.0" />
+60-->[com.android.support:support-v4:26.0.0] C:\Users\Sk Mubeen\.gradle\caches\transforms-2\files-2.1\af65d76596cf995049612f2c544af492\support-v4-26.0.0\AndroidManifest.xml:28:13-35
+61    </application>
+62
+63</manifest><!--
+64    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+65    <uses-permission android:name="android.permission.VIBRATE"/>
+66    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+67    <uses-permission android:name="android.permission.CALL_PHONE" />
+68    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+69    <uses-permission android:name="android.permission.SEND_SMS"/>
+70-->
